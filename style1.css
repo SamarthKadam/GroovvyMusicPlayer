@@ -305,6 +305,7 @@
     top: 60%;
     width:100px;
     background-color: #6982ff;
+    border-radius: 10px;
     animation-name: amaze;
     animation-duration: 1s;
     animation-iteration-count: infinite;
