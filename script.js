@@ -425,6 +425,7 @@ button1.addEventListener('click',function()
         converttoPlay(1);
         if(firstrender===0)
         {
+            SongBarContainer.innerHTML='';
         let movehtml=`<div class="rotatingBar"></div>`
         SongPageRendering.innerHTML='';
         SongPageRendering.insertAdjacentHTML('beforeend',movehtml);
@@ -466,6 +467,7 @@ button2.addEventListener('click',function()
         converttoPlay(2);
         if(secondrender===0)
         {
+            SongBarContainer.innerHTML='';
         let movehtml=`<div class="rotatingBar"></div>`
         SongPageRendering.innerHTML='';
         SongPageRendering.insertAdjacentHTML('beforeend',movehtml);
@@ -507,6 +509,7 @@ button3.addEventListener('click',function()
         converttoPlay(3);
         if(thirdrender===0)
         {
+        SongBarContainer.innerHTML='';
         let movehtml=`<div class="rotatingBar"></div>`;
         SongPageRendering.innerHTML='';
         SongPageRendering.insertAdjacentHTML('beforeend',movehtml);
@@ -548,6 +551,7 @@ button4.addEventListener('click',function()
         converttoPlay(4);
         if(fourthrender===0)
         {
+            SongBarContainer.innerHTML='';
         let movehtml=`<div class="rotatingBar"></div>`
         SongPageRendering.innerHTML='';
         SongPageRendering.insertAdjacentHTML('beforeend',movehtml);
